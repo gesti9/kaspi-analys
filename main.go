@@ -3,10 +3,9 @@ package main
 import (
 	"fmt"
 	"log"
-
 	"strconv"
 	"sync"
-
+	"work/data"
 	"work/logs"
 	"work/service"
 
@@ -49,10 +48,9 @@ func main() {
 	for update := range updates {
 		if update.Message != nil { // If we got a message
 			log.Printf("[%s] %s", update.Message.From.UserName, update.Message.Text)
-
+			count, _ := strconv.Atoi(data.ReadFromFile("data/users/" + strconv.Itoa(int(update.Message.Chat.ID)) + ".txt"))
 			switch update.Message.Text {
 			case "/start":
-
 				logs.Log("@" + update.Message.From.UserName + "  " + "ИМЯ: " + update.Message.Chat.FirstName + " " + update.Message.Chat.LastName + "  " + "ID: " + strconv.Itoa(int(update.Message.Chat.ID)) + "  " + update.Message.Text + "\n")
 				msg := tgbotapi.NewMessage(update.Message.Chat.ID, "Жду ссылку..")
 				msg.ReplyToMessageID = update.Message.MessageID
@@ -60,16 +58,15 @@ func main() {
 				bot.Send(msg)
 			case "Купить подписку!":
 				logs.Log("@" + update.Message.From.UserName + "  " + "ИМЯ: " + update.Message.Chat.FirstName + " " + update.Message.Chat.LastName + "  " + "ID: " + strconv.Itoa(int(update.Message.Chat.ID)) + "  " + update.Message.Text + "\n")
-
 				service.Pay(int(update.Message.Chat.ID))
-				// msg := tgbotapi.NewMessage(update.Message.Chat.ID, `	Переходи👇🤗`)
-				// keyboard := tgbotapi.NewInlineKeyboardMarkup(
-				// 	tgbotapi.NewInlineKeyboardRow(
-				// 		tgbotapi.NewInlineKeyboardButtonURL("Оплата", "https://pay.kaspi.kz/pay/jxrd4qnx"),
-				// 	),
-				// )
-				// msg.ReplyMarkup = keyboard
-				// bot.Send(msg)
+				msg := tgbotapi.NewMessage(update.Message.Chat.ID, `	Оплата через Kaspi`)
+				keyboard := tgbotapi.NewInlineKeyboardMarkup(
+					tgbotapi.NewInlineKeyboardRow(
+						tgbotapi.NewInlineKeyboardButtonURL("Оплата", "https://pay.kaspi.kz/pay/jxrd4qnx"),
+					),
+				)
+				msg.ReplyMarkup = keyboard
+				bot.Send(msg)
 			case "Поддержка!":
 				logs.Log("@" + update.Message.From.UserName + "  " + "ИМЯ: " + update.Message.Chat.FirstName + " " + update.Message.Chat.LastName + "  " + "ID: " + strconv.Itoa(int(update.Message.Chat.ID)) + "  " + update.Message.Text + "\n")
 				msg := tgbotapi.NewMessage(update.Message.Chat.ID, `Переходи👇`)
@@ -86,13 +83,30 @@ func main() {
 					fmt.Printf("%s - это валидная ссылка\n", (update.Message.Text))
 					result, _ := service.Output(update.Message.Text)
 					num, _ := strconv.Atoi(result)
-					mes := (float64(num) / float64(365)) * 30
 
-					msg := tgbotapi.NewMessage(update.Message.Chat.ID, `Количество продаж в месяц: `+result+"\n"+
-						`Количество продаж за день `+strconv.Itoa(int(mes)))
-					msg.ReplyToMessageID = update.Message.MessageID
+					if data.ReadFromFile("data/users/"+strconv.Itoa(int(update.Message.Chat.ID))+".txt") == "10" {
+						msg := tgbotapi.NewMessage(update.Message.Chat.ID, "Закончился пробный период, для продолжения купите подписку!")
+						msg.ReplyToMessageID = update.Message.MessageID
+						bot.Send(msg)
+						fmt.Println(data.ReadFromFile("data/users/" + strconv.Itoa(int(update.Message.Chat.ID)) + ".txt"))
+					} else if num == 0 {
+						msg := tgbotapi.NewMessage(update.Message.Chat.ID, "У товара 0 продаж!")
+						msg.ReplyToMessageID = update.Message.MessageID
+						bot.Send(msg)
+					} else {
+						msg := tgbotapi.NewMessage(update.Message.Chat.ID, "Идет обработка..")
+						bot.Send(msg)
+						mes := (float64(num) / float64(365)) * 30
+						msg = tgbotapi.NewMessage(update.Message.Chat.ID, `Количество продаж за все время: `+result+"\n"+
+							`Количество продаж за месяц `+strconv.Itoa(int(mes))+"\n"+service.Price(update.Message.Text))
+						msg.ReplyToMessageID = update.Message.MessageID
 
-					bot.Send(msg)
+						bot.Send(msg)
+
+						count++
+						data.UserData(update.Message.From.ID, count)
+					}
+
 					// Ваш код для загрузки и анализа страницы
 				} else {
 					fmt.Printf("%s - не является валидной ссылкой\n", (update.Message.Text))
