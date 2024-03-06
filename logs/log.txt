@@ -408,3 +408,59 @@ exit status 1
 2024-03-04 19:25:46    @gesti_9  ИМЯ: N A  ID: 452639799  https://kaspi.kz/shop/p/apple-airpods-3-belyi-102667744/?c=710000000
 2024-03-04 19:26:12    @gesti_9  ИМЯ: N A  ID: 452639799  https://kaspi.kz/shop/p/apple-airpods-3-belyi-102667744/?c=710000000
 2024-03-04 19:26:48    @gesti_9  ИМЯ: N A  ID: 452639799  https://kaspi.kz/shop/p/apple-airpods-3-belyi-102667744/?c=710000000
+2024-03-05 09:14:14    @gesti_9  ИМЯ: N A  ID: 452639799  https://kaspi.kz/shop/p/apple-20w-usb-c-power-adapter-belyi-100984093/?c=710000000
+2024-03-05 09:57:16    @HPE47  ИМЯ: sabrina jame  ID: 6248288613  /start
+2024-03-05 10:43:02    @gesti_9  ИМЯ: N A  ID: 452639799  https://kaspi.kz/shop/p/apple-20w-usb-c-power-adapter-belyi-100984093/?c=710000000
+2024-03-06 11:59:43    @  ИМЯ: Darkhan   ID: 918676791  /start
+2024-03-06 12:01:02    @  ИМЯ: Darkhan   ID: 918676791  https://kaspi.kz/shop/p/muslook-tso110007980-dlja-holodnoi-vody-106803888/?c=151010000&sr=5&qid=9b1c6478a4e739972c680081e47981d7&ref=shared_link
+2024-03-06 12:03:40    @  ИМЯ: Darkhan   ID: 918676791  https://kaspi.kz/shop/p/sistema-obratnogo-osmosa-fe-105-kz-ro50g-muslook-112119304/?c=151010000&sr=1&qid=fc89013b14b758af705bac5094f32b24&ref=shared_link
+2024-03-06 12:11:41    @  ИМЯ: Darkhan   ID: 918676791  https://kaspi.kz/shop/p/smesitel-dlja-vanny-oute-t40323-odnozahvatnyi-116399252/?c=151010000&sr=7&qid=d09e9a94ba20a43a00f53b122e365612&ref=shared_link
+2024-03-06 15:35:47    @gesti_9  ИМЯ: N A  ID: 452639799  https://kaspi.kz/shop/p/smesitel-dlja-vanny-oute-t40323-odnozahvatnyi-116399252/?c=151010000&sr=7&qid=d09e9a94ba20a43a00f53b122e365612&ref=shared_link
+2024-03-06 15:35:48    @erasild  ИМЯ: Era   ID: 1927363285  /start
+2024-03-06 15:36:12    @erasild  ИМЯ: Era   ID: 1927363285  https://kaspi.kz/shop/p/samsung-galaxy-s24-5g-galaxy-fit3-8-gb-128-gb-seryi-117118995/?c=750000000&sr=1&ref=shared_link
+2024-03-06 15:36:52    @erasild  ИМЯ: Era   ID: 1927363285  https://kaspi.kz/shop/p/puruikai-n-361-belyi-104880145/?c=750000000&ref=shared_link
+2024-03-06 15:40:59    @erasild  ИМЯ: Era   ID: 1927363285  https://kaspi.kz/shop/p/puruikai-n-361-belyi-104880145/?c=750000000&ref=shared_link
+2024-03-06 15:56:46    @gesti_9  ИМЯ: N A  ID: 452639799  https://kaspi.kz/shop/p/apple-20w-usb-c-power-adapter-belyi-100984093/?c=710000000
+2024-03-06 15:58:01    @gesti_9  ИМЯ: N A  ID: 452639799  https://kaspi.kz/shop/p/apple-20w-usb-c-power-adapter-belyi-100984093/?c=710000000
+2024-03-06 15:58:22    @gesti_9  ИМЯ: N A  ID: 452639799  https://kaspi.kz/shop/p/apple-20w-usb-c-power-adapter-belyi-100984093/?c=710000000
+2024-03-06 15:58:34    @gesti_9  ИМЯ: N A  ID: 452639799  https://kaspi.kz/shop/p/apple-20w-usb-c-power-adapter-belyi-100984093/?c=710000000
+2024-03-06 15:58:58    @gesti_9  ИМЯ: N A  ID: 452639799  https://kaspi.kz/shop/p/apple-20w-usb-c-power-adapter-belyi-100984093/?c=710000000
+2024-03-06 16:12:29    @gesti_9  ИМЯ: N A  ID: 452639799  https://kaspi.kz/shop/p/apple-20w-usb-c-power-adapter-belyi-100984093/?c=710000000
+2024-03-06 16:16:51    @gesti_9  ИМЯ: N A  ID: 452639799  https://kaspi.kz/shop/p/apple-20w-usb-c-power-adapter-belyi-100984093/?c=710000000
+2024-03-06 16:20:47    @gesti_9  ИМЯ: N A  ID: 452639799  https://kaspi.kz/shop/p/lg-f2j3ns0w-belyi-3601511/?c=710000000
+2024-03-06 16:21:49    @gesti_9  ИМЯ: N A  ID: 452639799  https://kaspi.kz/shop/p/lg-f2j3ns0w-belyi-3601511/?c=710000000
+2024-03-06 16:22:31    @erasild  ИМЯ: Era   ID: 1927363285  https://kaspi.kz/shop/p/puruikai-n-361-belyi-104880145/?c=750000000&ref=shared_link
+2024-03-06 16:23:10    @gesti_9  ИМЯ: N A  ID: 452639799  https://kaspi.kz/shop/p/puruikai-n-361-belyi-104880145/?c=750000000&ref=shared_link
+2024-03-06 16:28:36    @gesti_9  ИМЯ: N A  ID: 452639799  https://kaspi.kz/shop/p/puruikai-n-361-belyi-104880145/?c=750000000&ref=shared_link
+2024-03-06 16:30:04    @gesti_9  ИМЯ: N A  ID: 452639799  https://kaspi.kz/shop/p/puruikai-n-361-belyi-104880145/?c=750000000&ref=shared_link
+2024-03-06 16:30:31    @gesti_9  ИМЯ: N A  ID: 452639799  https://kaspi.kz/shop/p/smesitel-dlja-vanny-oute-t40323-odnozahvatnyi-116399252/?c=151010000&sr=7&qid=d09e9a94ba20a43a00f53b122e365612&ref=shared_link
+2024-03-06 16:31:08    @gesti_9  ИМЯ: N A  ID: 452639799  https://kaspi.kz/shop/p/frutonjanja-jabloko-banan-tvorog-6-mes-90-g-100975502/?c=710000000
+2024-03-06 16:38:27    @gesti_9  ИМЯ: N A  ID: 452639799  https://kaspi.kz/shop/p/elektrochainik-bereke-br-810-seryi-109981423/?c=710000000
+2024-03-06 16:39:54    @gesti_9  ИМЯ: N A  ID: 452639799  https://kaspi.kz/shop/p/elektrochainik-bereke-br-810-seryi-109981423/?c=710000000
+2024-03-06 16:41:24    @gesti_9  ИМЯ: N A  ID: 452639799  https://kaspi.kz/shop/p/bella-vatnye-palochki-cotton-160-sht-100224758/?c=710000000
+2024-03-06 16:53:40    @gesti_9  ИМЯ: N A  ID: 452639799  /start
+2024-03-06 16:53:42    @gesti_9  ИМЯ: N A  ID: 452639799  Купить подписку!
+2024-03-06 16:53:44    @gesti_9  ИМЯ: N A  ID: 452639799  Купить подписку!
+2024-03-06 16:53:46    @gesti_9  ИМЯ: N A  ID: 452639799  Поддержка!
+2024-03-06 16:53:51    @gesti_9  ИМЯ: N A  ID: 452639799  Купить подписку!
+2024-03-06 16:53:56    @gesti_9  ИМЯ: N A  ID: 452639799  https://kaspi.kz/shop/p/bella-vatnye-palochki-cotton-160-sht-100224758/?c=710000000
+2024-03-06 16:54:22    @gesti_9  ИМЯ: N A  ID: 452639799  /start
+2024-03-06 16:54:24    @gesti_9  ИМЯ: N A  ID: 452639799  Купить подписку!
+2024-03-06 16:54:44    @gesti_9  ИМЯ: N A  ID: 452639799  https://kaspi.kz/shop/p/bella-vatnye-palochki-cotton-160-sht-100224758/?c=710000000
+2024-03-06 16:55:44    @gesti_9  ИМЯ: N A  ID: 452639799  https://kaspi.kz/shop/p/apple-iphone-15-pro-max-256gb-seryi-113138420/?c=710000000&sr=1&ref=shared_link
+2024-03-06 17:11:41    @  ИМЯ: Аида   ID: 1289226647  /start
+2024-03-06 17:11:48    @  ИМЯ: Аида   ID: 1289226647  https://kaspi.kz/shop/p/baldyrgan-005-rozovyi-104159102/?c=511010000&m=2827000&sr=2&qid=d0ee98e03e65da7ec45e43fc115798a0&ref=shared_link
+2024-03-06 18:23:58    @gesti_9  ИМЯ: N A  ID: 452639799  /start
+2024-03-06 18:24:00    @gesti_9  ИМЯ: N A  ID: 452639799  Купить подписку!
+2024-03-06 18:24:07    @gesti_9  ИМЯ: N A  ID: 452639799  Купить подписку!
+2024-03-06 18:26:39    @gesti_9  ИМЯ: N A  ID: 452639799  /start
+2024-03-06 18:27:02    @gesti_9  ИМЯ: N A  ID: 452639799  /payments
+2024-03-06 18:27:45    @gesti_9  ИМЯ: N A  ID: 452639799  /payments
+2024-03-06 18:29:24    @gesti_9  ИМЯ: N A  ID: 452639799  Купить подписку!
+2024-03-06 18:29:26    @gesti_9  ИМЯ: N A  ID: 452639799  /payments
+2024-03-06 19:27:00    @gesti_9  ИМЯ: N A  ID: 452639799  https://kaspi.kz/shop/p/puruikai-n-361-belyi-104880145/?c=750000000&ref=shared_link
+2024-03-06 19:27:32    @osint_kzt  ИМЯ: L   ID: 1704599395  https://kaspi.kz/shop/p/puruikai-n-361-belyi-104880145/?c=750000000&ref=shared_link
+2024-03-06 19:27:53    @gesti_9  ИМЯ: N A  ID: 452639799  /payments
+2024-03-06 19:28:53    @gesti_9  ИМЯ: N A  ID: 452639799  /payments
+2024-03-06 19:35:21    @gesti_9  ИМЯ: N A  ID: 452639799  https://kaspi.kz/shop/p/puruikai-n-361-belyi-104880145/?c=750000000&ref=shared_link
+2024-03-06 19:35:33    @gesti_9  ИМЯ: N A  ID: 452639799  /payments

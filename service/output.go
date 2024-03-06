@@ -58,11 +58,11 @@ func Output(n string) (string, error) {
 	return strconv.Itoa(int(Sum(result))), nil
 }
 
-func Price(url string) string {
+func Price(url string) (int, error) {
 	// Run Chrome browser
 	service, err := selenium.NewChromeDriverService("C:/chromedriver-win64/chromedriver.exe", 4444)
 	if err != nil {
-		panic(err)
+		return 0, err
 	}
 	defer service.Stop()
 
@@ -72,33 +72,51 @@ func Price(url string) string {
 		"--no-sandbox",
 		"--disable-dev-shm-usage",
 		"disable-gpu",
-		// "--headless",  // comment out this line to see the browser
+		"--headless", // раскомментируйте эту строку, чтобы сделать браузер невидимым
 	}})
 
 	driver, err := selenium.NewRemote(caps, "")
 	if err != nil {
-		panic(err)
+		return 0, err
 	}
 
 	driver.Get(url)
 
-	// Ждем несколько секунд для полной загрузки страницы (вы можете настроить под свои нужды)
-	time.Sleep(5 * time.Second)
+	// Ждем 2 секунды вместо 5
+	time.Sleep(2 * time.Second)
 
 	// Находим элемент по классу
 	elem, err := driver.FindElement(selenium.ByClassName, "item__price-once")
 	if err != nil {
-		panic(err)
+		return 0, err
 	}
 
 	// Получаем текст из элемента
 	text, err := elem.Text()
 	if err != nil {
-		panic(err)
+		return 0, err
 	}
 
-	fmt.Println("Текст из элемента item__price-left-side:", text)
-	return text
+	// Извлекаем только цифры с использованием регулярного выражения
+	re := regexp.MustCompile(`\d+`)
+	digits := re.FindAllString(text, -1)
+
+	// Объединяем извлеченные цифры в одну строку
+	resultString := ""
+	for _, digit := range digits {
+		resultString += digit
+	}
+
+	// Преобразуем строку в число
+	res, err := strconv.Atoi(resultString)
+	if err != nil {
+		return 0, err
+	}
+
+	fmt.Println("Текст из элемента item__price-once:", text)
+	fmt.Println("Извлеченные цифры:", res)
+
+	return res, nil
 }
 
 // Функция для вычисления суммы (ваша логика)

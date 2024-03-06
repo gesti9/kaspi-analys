@@ -3,6 +3,8 @@ package service
 import (
 	"log"
 	"os"
+	"strconv"
+	"work/logs"
 
 	tgbotapi "github.com/go-telegram-bot-api/telegram-bot-api"
 )
@@ -30,4 +32,15 @@ func Pay(id int) {
 	_, _ = bot.Send(invoice)
 
 	log.Println("After sending invoice")
+}
+func HandlePaymentRequest(update tgbotapi.Update, bot *tgbotapi.BotAPI) {
+	logs.Log("@" + update.Message.From.UserName + "  " + "ИМЯ: " + update.Message.Chat.FirstName + " " + update.Message.Chat.LastName + "  " + "ID: " + strconv.Itoa(int(update.Message.Chat.ID)) + "  " + update.Message.Text + "\n")
+	msg := tgbotapi.NewMessage(update.Message.Chat.ID, `	Kaspi оплата 4990₸`)
+	keyboard := tgbotapi.NewInlineKeyboardMarkup(
+		tgbotapi.NewInlineKeyboardRow(
+			tgbotapi.NewInlineKeyboardButtonURL("Оплата", "https://pay.kaspi.kz/pay/jxrd4qnx"),
+		),
+	)
+	msg.ReplyMarkup = keyboard
+	bot.Send(msg)
 }

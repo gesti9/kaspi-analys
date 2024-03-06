@@ -58,8 +58,19 @@ func main() {
 				bot.Send(msg)
 			case "Купить подписку!":
 				logs.Log("@" + update.Message.From.UserName + "  " + "ИМЯ: " + update.Message.Chat.FirstName + " " + update.Message.Chat.LastName + "  " + "ID: " + strconv.Itoa(int(update.Message.Chat.ID)) + "  " + update.Message.Text + "\n")
-				service.Pay(int(update.Message.Chat.ID))
-				msg := tgbotapi.NewMessage(update.Message.Chat.ID, `	Оплата через Kaspi`)
+				// service.Pay(int(update.Message.Chat.ID))
+				msg := tgbotapi.NewMessage(update.Message.Chat.ID, `	Kaspi оплата 4990₸`)
+				keyboard := tgbotapi.NewInlineKeyboardMarkup(
+					tgbotapi.NewInlineKeyboardRow(
+						tgbotapi.NewInlineKeyboardButtonURL("Оплата", "https://pay.kaspi.kz/pay/jxrd4qnx"),
+					),
+				)
+				msg.ReplyMarkup = keyboard
+				bot.Send(msg)
+			case "/payments":
+				logs.Log("@" + update.Message.From.UserName + "  " + "ИМЯ: " + update.Message.Chat.FirstName + " " + update.Message.Chat.LastName + "  " + "ID: " + strconv.Itoa(int(update.Message.Chat.ID)) + "  " + update.Message.Text + "\n")
+				// service.Pay(int(update.Message.Chat.ID))
+				msg := tgbotapi.NewMessage(update.Message.Chat.ID, `	Kaspi оплата 4990₸`)
 				keyboard := tgbotapi.NewInlineKeyboardMarkup(
 					tgbotapi.NewInlineKeyboardRow(
 						tgbotapi.NewInlineKeyboardButtonURL("Оплата", "https://pay.kaspi.kz/pay/jxrd4qnx"),
@@ -97,8 +108,14 @@ func main() {
 						msg := tgbotapi.NewMessage(update.Message.Chat.ID, "Идет обработка..")
 						bot.Send(msg)
 						mes := (float64(num) / float64(365)) * 30
-						msg = tgbotapi.NewMessage(update.Message.Chat.ID, `Количество продаж за все время: `+result+"\n"+
-							`Количество продаж за месяц `+strconv.Itoa(int(mes))+"\n"+service.Price(update.Message.Text))
+						day := float64(mes) / float64(30)
+						formatted := fmt.Sprintf("%.1f", day)
+						fmt.Println(formatted)
+						price, _ := service.Price(update.Message.Text)
+						moneyM := price * 30
+						msg = tgbotapi.NewMessage(update.Message.Chat.ID, `Общее количество продаж: `+result+` шт.`+"\n"+
+							`В месяц: `+strconv.Itoa(int(mes))+` шт.`+"\n"+`Продажи в день: `+formatted+` шт.`+
+							"\n"+`Выручка за месяц: `+strconv.Itoa(moneyM)+` ₸`)
 						msg.ReplyToMessageID = update.Message.MessageID
 
 						bot.Send(msg)
