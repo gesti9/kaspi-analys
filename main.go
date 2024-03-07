@@ -54,6 +54,12 @@ func main() {
 				logs.Log("@" + update.Message.From.UserName + "  " + "ИМЯ: " + update.Message.Chat.FirstName + " " + update.Message.Chat.LastName + "  " + "ID: " + strconv.Itoa(int(update.Message.Chat.ID)) + "  " + update.Message.Text + "\n")
 				msg := tgbotapi.NewMessage(update.Message.Chat.ID, "Жду ссылку..")
 				msg.ReplyToMessageID = update.Message.MessageID
+				if update.Message != nil && update.Message.Contact != nil {
+					// Теперь можно безопасно использовать PhoneNumber
+					fmt.Println(update.Message.Contact.PhoneNumber)
+				} else {
+					fmt.Println("Контакт не предоставлен или объект Contact равен nil")
+				}
 				msg.ReplyMarkup = mainMenu
 				bot.Send(msg)
 			case "Купить подписку!":
@@ -67,6 +73,8 @@ func main() {
 				)
 				msg.ReplyMarkup = keyboard
 				bot.Send(msg)
+				msg = tgbotapi.NewMessage(update.Message.Chat.ID, `После оплаты напишите в поддержку!`)
+				bot.Send(msg)
 			case "/payments":
 				logs.Log("@" + update.Message.From.UserName + "  " + "ИМЯ: " + update.Message.Chat.FirstName + " " + update.Message.Chat.LastName + "  " + "ID: " + strconv.Itoa(int(update.Message.Chat.ID)) + "  " + update.Message.Text + "\n")
 				// service.Pay(int(update.Message.Chat.ID))
@@ -78,12 +86,24 @@ func main() {
 				)
 				msg.ReplyMarkup = keyboard
 				bot.Send(msg)
+				msg = tgbotapi.NewMessage(update.Message.Chat.ID, `После оплаты напишите в поддержку!`)
+				bot.Send(msg)
 			case "Поддержка!":
 				logs.Log("@" + update.Message.From.UserName + "  " + "ИМЯ: " + update.Message.Chat.FirstName + " " + update.Message.Chat.LastName + "  " + "ID: " + strconv.Itoa(int(update.Message.Chat.ID)) + "  " + update.Message.Text + "\n")
 				msg := tgbotapi.NewMessage(update.Message.Chat.ID, `Переходи👇`)
 				keyboard := tgbotapi.NewInlineKeyboardMarkup(
 					tgbotapi.NewInlineKeyboardRow(
-						tgbotapi.NewInlineKeyboardButtonURL("Поддержка!", "https://t.me/gesti_9"),
+						tgbotapi.NewInlineKeyboardButtonURL("Поддержка!", "https://t.me/erasild"),
+					),
+				)
+				msg.ReplyMarkup = keyboard
+				bot.Send(msg)
+			case "/helper":
+				logs.Log("@" + update.Message.From.UserName + "  " + "ИМЯ: " + update.Message.Chat.FirstName + " " + update.Message.Chat.LastName + "  " + "ID: " + strconv.Itoa(int(update.Message.Chat.ID)) + "  " + update.Message.Text + "\n")
+				msg := tgbotapi.NewMessage(update.Message.Chat.ID, `Переходи👇`)
+				keyboard := tgbotapi.NewInlineKeyboardMarkup(
+					tgbotapi.NewInlineKeyboardRow(
+						tgbotapi.NewInlineKeyboardButtonURL("Поддержка!", "https://t.me/erasild"),
 					),
 				)
 				msg.ReplyMarkup = keyboard
