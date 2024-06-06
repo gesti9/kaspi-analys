@@ -11,14 +11,14 @@ import (
 
 var (
 	token        = "6553780269:AAGKRvVeV7cswTqcjEErQKbBfdU6t6cYE-Y"
-	paymentToken = os.Getenv("5420394252:TEST:543267")
+	paymentToken = os.Getenv("5717382967:LIVE:638495593257336354")
 )
 
 func Pay(id int) {
 	bot, _ := tgbotapi.NewBotAPI(token)
 	invoice := tgbotapi.NewInvoice(
 		int64(id),
-		"Оплата за подписку!",
+		"Оплата подписки за 1 месяц!",
 		"Платеж на сумму 4990₸",
 		"custom_payload",
 		paymentToken, // Токен для создания платежа
@@ -26,7 +26,7 @@ func Pay(id int) {
 		"KZT",
 		&[]tgbotapi.LabeledPrice{{Label: "KZT", Amount: 499000}},
 	)
-	invoice.ProviderToken = "5420394252:TEST:543267"
+	invoice.ProviderToken = "5717382967:LIVE:638495593257336354"
 
 	log.Println("Before sending invoice")
 	_, _ = bot.Send(invoice)

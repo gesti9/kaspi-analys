@@ -481,3 +481,122 @@ exit status 1
 2024-03-07 14:54:21    @gesti_9  ИМЯ: N A  ID: 452639799  /helper
 2024-03-07 14:54:57    @gesti_9  ИМЯ: N A  ID: 452639799  Поддержка!
 2024-03-07 14:55:28    @gesti_9  ИМЯ: N A  ID: 452639799  Поддержка!
+2024-03-14 20:46:36    @gesti_9  ИМЯ: N A  ID: 452639799  Поддержка!
+2024-03-14 20:46:37    @gesti_9  ИМЯ: N A  ID: 452639799  /helper
+2024-03-14 20:46:37    @gesti_9  ИМЯ: N A  ID: 452639799  553
+2024-03-14 22:28:53    @gesti_9  ИМЯ: N A  ID: 452639799  Поддержка!
+2024-03-14 22:31:03    @WWSZLa  ИМЯ: 55   ID: 1631882181  /start
+2024-03-14 22:31:28    @gesti_9  ИМЯ: N A  ID: 452639799  /start
+2024-03-14 22:31:37    @WWSZLa  ИМЯ: 55   ID: 1631882181  Купить подписку!
+2024-03-14 22:32:03    @WWSZLa  ИМЯ: 55   ID: 1631882181  /helper
+2024-03-14 22:33:05    @WWSZLa  ИМЯ: 55   ID: 1631882181  https://kaspi.kz/shop/p/apple-iphone-15-pro-max-256gb-seryi-113138420/?c=710000000&sr=1&ref=shared_link
+2024-03-14 22:33:25    @gesti_9  ИМЯ: N A  ID: 452639799  https://kaspi.kz/shop/p/apple-iphone-15-pro-max-256gb-seryi-113138420/?c=710000000&sr=1&ref=shared_link
+2024-03-18 11:21:00    @gesti_9  ИМЯ: N A  ID: 452639799  https://kaspi.kz/shop/p/chetki-zikrring-elektronnye-metall-182022-sm-109387282/?c=351010000&ref=shared_link
+2024-04-15 09:13:11    @gesti_9  ИМЯ: N A  ID: 452639799  Купить подписку!
+2024-04-15 09:14:16    @gesti_9  ИМЯ: N A  ID: 452639799  Купить подписку!
+2024-04-15 09:38:44    @  ИМЯ: А.К   ID: 2081333582  /start
+2024-04-15 09:39:52    @  ИМЯ: А.К   ID: 2081333582  
+2024-04-15 09:40:38    @  ИМЯ: А.К   ID: 2081333582  https://kaspi.kz/shop/p/trjohkoljosnyi-velosiped-qplay-prime-eva-seryi-104358177/?c=710000000&m=Minimkz&sr=16&qid=b7ed71f566ef2914243be013934c7aba&ref=shared_link
+2024-04-15 09:41:53    @  ИМЯ: А.К   ID: 2081333582  https://kaspi.kz/shop/p/vormor-z6-chernyi-115428880/?c=710000000&sr=1&qid=9aaf86b95dbd58ca929ec2edd19ba04f&ref=shared_link
+2024-04-15 09:47:37    @gesti_9  ИМЯ: N A  ID: 452639799  Купить подписку!
+2024-04-15 09:48:08    @gesti_9  ИМЯ: N A  ID: 452639799  Купить подписку!
+2024-04-15 09:48:19    @gesti_9  ИМЯ: N A  ID: 452639799  /payments
+2024-04-15 09:49:14    @gesti_9  ИМЯ: N A  ID: 452639799  /payments
+2024-04-15 09:49:16    @gesti_9  ИМЯ: N A  ID: 452639799  /sse
+2024-04-15 09:49:52    @gesti_9  ИМЯ: N A  ID: 452639799  /payments
+2024-04-15 15:55:03    @  ИМЯ: Алмат   ID: 490221329  /start
+2024-04-15 17:45:07    @  ИМЯ: Нартай   ID: 1189929429  /start
+2024-04-15 17:45:17    @  ИМЯ: Нартай   ID: 1189929429  Поддержка!
+2024-04-16 02:32:15    @  ИМЯ: Aslbek   ID: 453918567  /start
+2024-04-16 19:27:18    @nurbek551  ИМЯ: Нурбек   ID: 748797550  /start
+2024-04-16 19:27:23    @nurbek551  ИМЯ: Нурбек   ID: 748797550  Купить подписку!
+2024-04-17 14:53:57    @  ИМЯ: 🤍   ID: 5144374615  /start
+2024-04-17 14:54:02    @  ИМЯ: 🤍   ID: 5144374615  /helper
+2024-04-17 14:54:08    @  ИМЯ: 🤍   ID: 5144374615  Купить подписку!
+2024-04-18 14:40:21    @  ИМЯ: Р К  ID: 1175681405  /start
+2024-04-18 14:40:22    @IvanovaUlyana  ИМЯ: Ульяна Иванова  ID: 1206472542  /start
+2024-04-18 14:41:18    @gesti_9  ИМЯ: N A  ID: 452639799  /payments
+2024-04-18 14:42:49    @gesti_9  ИМЯ: N A  ID: 452639799  /payments
+2024-04-18 14:45:31    @gesti_9  ИМЯ: N A  ID: 452639799  df
+2024-04-18 17:53:55    @gesti_9  ИМЯ: N A  ID: 452639799  s4
+2024-04-18 18:04:06    @gesti_9  ИМЯ: N A  ID: 452639799  sd
+2024-04-18 18:11:00    @gesti_9  ИМЯ: N A  ID: 452639799  фывыф
+2024-04-18 18:11:11    @gesti_9  ИМЯ: N A  ID: 452639799  /helper
+2024-04-18 18:31:10    @erasild  ИМЯ: Era   ID: 1927363285  Купить подписку!
+2024-04-19 11:28:09    @  ИМЯ: Mans Robokassa  ID: 6683961417  /start
+2024-04-19 11:28:46    @a45592  ИМЯ: 4   ID: 570780073  Купить подписку!
+2024-04-19 15:05:45    @ChristinaRobokassa  ИМЯ: Кристина Robokassa.kz  ID: 360479062  Купить подписку!
+2024-04-19 15:07:00    @a45592  ИМЯ: 4   ID: 570780073  Купить подписку!
+2024-04-19 15:09:52    @ChristinaRobokassa  ИМЯ: Кристина Robokassa.kz  ID: 360479062  Купить подписку!
+2024-04-19 15:16:12    @Anton_rkh  ИМЯ: Антон Р  ID: 787222757  /start
+2024-04-19 15:17:17    @  ИМЯ: Mans Robokassa  ID: 6683961417  /start
+2024-04-22 11:11:31    @gesti_9  ИМЯ: N A  ID: 452639799  ыв
+2024-04-22 12:18:41    @  ИМЯ: Darkhan   ID: 918676791  https://kaspi.kz/shop/p/oute-gigienicheskii-dush-th315h-113455953/
+2024-04-22 12:45:50    @  ИМЯ: толе   ID: 757741744  /start
+2024-04-22 13:53:47    @kumich5  ИМЯ: Kuralai Toleugazhy  ID: 1248246115  /start
+2024-04-22 13:54:56    @kumich5  ИМЯ: Kuralai Toleugazhy  ID: 1248246115  https://kaspi.kz/shop/p/rjukzak-15378081-ids21090702-poliester-oksford-chernyi-109556758/?c=750000000&ref=shared_link
+2024-04-22 15:27:35    @  ИМЯ: Mans Robokassa  ID: 6683961417  /start
+2024-04-22 15:27:57    @  ИМЯ: Mans Robokassa  ID: 6683961417  Купить подписку!
+2024-04-22 16:19:14    @ChristinaRobokassa  ИМЯ: Кристина Robokassa.kz  ID: 360479062  Купить подписку!
+2024-04-24 12:44:24    @lusangreal  ИМЯ: Sholpan   ID: 1116968229  /start
+2024-04-24 12:44:37    @gesti_9  ИМЯ: N A  ID: 452639799  /payments
+2024-04-24 12:46:19    @gesti_9  ИМЯ: N A  ID: 452639799  /payments
+2024-04-24 12:47:32    @gesti_9  ИМЯ: N A  ID: 452639799  /start
+2024-04-24 12:47:34    @gesti_9  ИМЯ: N A  ID: 452639799  Купить подписку!
+2024-04-24 12:51:39    @gesti_9  ИМЯ: N A  ID: 452639799  Купить подписку!
+2024-04-24 12:51:41    @gesti_9  ИМЯ: N A  ID: 452639799  /payments
+2024-04-24 12:54:13    @gesti_9  ИМЯ: N A  ID: 452639799  Купить подписку!
+2024-04-24 12:55:21    @gesti_9  ИМЯ: N A  ID: 452639799  /payments
+2024-04-24 12:55:23    @gesti_9  ИМЯ: N A  ID: 452639799  /helper
+2024-04-24 12:55:32    @gesti_9  ИМЯ: N A  ID: 452639799  /payments
+2024-04-24 12:55:35    @gesti_9  ИМЯ: N A  ID: 452639799  Поддержка!
+2024-04-24 12:55:36    @gesti_9  ИМЯ: N A  ID: 452639799  Купить подписку!
+2024-04-24 12:56:28    @gesti_9  ИМЯ: N A  ID: 452639799  Купить подписку!
+2024-04-24 12:56:57    @gesti_9  ИМЯ: N A  ID: 452639799  Купить подписку!
+2024-04-24 12:59:11    @gesti_9  ИМЯ: N A  ID: 452639799  Купить подписку!
+2024-04-24 13:10:25    @erasild  ИМЯ: Era   ID: 1927363285  /payments
+2024-04-24 13:26:37    @NeizvestnoKz  ИМЯ: Неизвестно   ID: 856818047  /start
+2024-04-24 13:26:41    @NeizvestnoKz  ИМЯ: Неизвестно   ID: 856818047  https://kaspi.kz/shop/p/kruzhka-909889564-keramika-116657050/?c=231010000
+2024-04-24 13:26:59    @NeizvestnoKz  ИМЯ: Неизвестно   ID: 856818047  https://kaspi.kz/shop/p/kruzhka-773943-keramika-116222029/?c=231010000
+2024-04-24 15:55:25    @gesti_9  ИМЯ: N A  ID: 452639799  Купить подписку!
+2024-04-25 10:35:02    @  ИМЯ: А   ID: 5367080493  /start
+2024-04-25 10:35:02    @erasild  ИМЯ: Era   ID: 1927363285  /payments
+2024-04-25 10:35:03    @Standart96  ИМЯ: Sake Sake  ID: 737470936  /start
+2024-04-25 10:35:03    @Standart96  ИМЯ: Sake Sake  ID: 737470936  https://kaspi.kz/shop/p/chainaja-para-royal-cs-w-keramika-108675304/?c=750000000&sr=5&qid=0a4933b6ed3ece7eaf11354d8e77edf9
+2024-04-25 10:35:12    @gesti_9  ИМЯ: N A  ID: 452639799  /payments
+2024-04-25 10:37:18    @gesti_9  ИМЯ: N A  ID: 452639799  /payments
+2024-04-25 10:37:30    @gesti_9  ИМЯ: N A  ID: 452639799  /payments
+2024-04-25 10:37:51    @gesti_9  ИМЯ: N A  ID: 452639799  /payments
+2024-04-25 10:38:17    @gesti_9  ИМЯ: N A  ID: 452639799  /payments
+2024-04-25 10:38:46    @gesti_9  ИМЯ: N A  ID: 452639799  /payments
+2024-04-25 10:39:05    @gesti_9  ИМЯ: N A  ID: 452639799  /payments
+2024-04-25 10:39:35    @gesti_9  ИМЯ: N A  ID: 452639799  /payments
+2024-04-25 10:39:51    @gesti_9  ИМЯ: N A  ID: 452639799  /payments
+2024-04-25 10:41:03    @gesti_9  ИМЯ: N A  ID: 452639799  /payments
+2024-04-25 10:42:21    @gesti_9  ИМЯ: N A  ID: 452639799  /payments
+2024-05-14 13:14:24    @gesti_9  ИМЯ: N A  ID: 452639799  /payments
+2024-05-24 23:10:33    @dba_nurs  ИМЯ: Nursultan Aidarbekov  ID: 452639799  H
+2024-05-24 23:11:12    @dba_nurs  ИМЯ: Nursultan Aidarbekov  ID: 452639799  https://kaspi.kz/shop/p/yunteko-i58-zolotistyi-rozovyi-111055053/?c=710000000&m=2240003&ref=shared_link
+2024-05-24 23:13:28    @dba_nurs  ИМЯ: Nursultan Aidarbekov  ID: 452639799  https://kaspi.kz/shop/p/yunteko-i58-zolotistyi-rozovyi-111055053/?c=710000000&m=2240003&ref=shared_link
+2024-05-24 23:13:45    @dba_nurs  ИМЯ: Nursultan Aidarbekov  ID: 452639799  J
+2024-05-24 23:14:06    @dba_nurs  ИМЯ: Nursultan Aidarbekov  ID: 452639799  https://kaspi.kz/shop/p/oneplus-nord-2-5g-12-256gb-goluboi-102105939/?c=710000000&ref=shared_link
+2024-05-24 23:20:52    @dba_nurs  ИМЯ: Nursultan Aidarbekov  ID: 452639799  https://kaspi.kz/shop/p/oneplus-nord-2-5g-12-256gb-goluboi-102105939/?c=710000000&ref=shared_link
+2024-05-24 23:21:39    @dba_nurs  ИМЯ: Nursultan Aidarbekov  ID: 452639799  https://kaspi.kz/shop/p/yunteko-i58-zolotistyi-rozovyi-111055053/?c=710000000&m=2240003&ref=shared_link
+2024-06-01 12:59:54    @dba_nurs  ИМЯ: Nursultan Aidarbekov  ID: 452639799  https://kaspi.kz/shop/p/oneplus-nord-2-5g-12-256gb-goluboi-102105939/?c=710000000&ref=shared_link
+2024-06-01 17:56:46    @Kz001ig  ИМЯ: Дильдар   ID: 510187652  /start
+2024-06-01 23:41:47    @erasild  ИМЯ: Era   ID: 1927363285  /payments
+2024-06-03 12:03:02    @erasild  ИМЯ: Era   ID: 1927363285  https://kaspi.kz/shop/p/tor-rl208-1-zheltyi-106284479/?c=750000000&ref=shared_link
+2024-06-03 12:03:16    @erasild  ИМЯ: Era   ID: 1927363285  https://kaspi.kz/shop/p/ideal-bvc-506-seryi-117324209/?c=750000000&ref=shared_link
+2024-06-03 07:46:10    @adl1144  ИМЯ: 123   ID: 2123828597  /start
+2024-06-03 07:46:10    @  ИМЯ: Айнура   ID: 818521200  /start
+2024-06-03 07:46:10    @  ИМЯ: simow   ID: 861289434  /start
+2024-06-05 17:05:12    @  ИМЯ: Айнура   ID: 818521200  https://kaspi.kz/shop/p/indigo-sport-in267-fioletovyi-102846918/?c=750000000&sr=5&qid=1b810b65fad056ecb40eefe3092b7385&ref=shared_link
+2024-06-05 17:06:13    @  ИМЯ: Айнура   ID: 818521200  https://kaspi.kz/shop/p/ironman-yoga-mat-sy003-180h60h0-6-sm-fioletovyi-102170218/?c=750000000&sr=10&qid=0988eb6b7e50f1d4e2779227b9457d21&ref=shared_link
+2024-06-05 17:06:27    @  ИМЯ: Айнура   ID: 818521200  https://kaspi.kz/shop/p/gm-sport-yogo1-183x61x0-6-sm-rozovyi-106413805/?c=750000000&m=1419002&sr=7&qid=0988eb6b7e50f1d4e2779227b9457d21&ref=shared_link
+2024-06-05 17:07:06    @  ИМЯ: Айнура   ID: 818521200  https://kaspi.kz/shop/p/g-vite-gv-901-chernyi-108886823/?c=750000000&m=Gosport&sr=3&qid=07e097161b7ef8540fffb9274454bea1&ref=shared_link
+2024-06-05 17:08:05    @  ИМЯ: Айнура   ID: 818521200  https://kaspi.kz/shop/p/snd-go-mtvs-rvf-11-zelenyi-113462439/?c=750000000&m=18107550&sr=5&qid=07e097161b7ef8540fffb9274454bea1&ref=shared_link
+2024-06-05 17:09:32    @  ИМЯ: Айнура   ID: 818521200  https://kaspi.kz/shop/p/green-hill-sos-007-chernyi-37-108825526/?c=750000000&sr=1&qid=f0b8834d6494f129086bfd3efe4b77ae&hasVariants=true&ref=shared_link
+2024-06-05 17:11:37    @  ИМЯ: Айнура   ID: 818521200  https://kaspi.kz/shop/p/sumka-baget-amadi-451363-poliuretan-ekokozha-chernyi-107989303/?c=750000000&sr=2&qid=61ca26d14ef3deb05c2ca7b96aeac029&ref=shared_link
+2024-06-05 17:13:36    @  ИМЯ: Айнура   ID: 818521200  https://kaspi.kz/shop/p/sumka-baget-fashion-bag-rf-07-iskusstvennaja-kozha-chernyi-107961860/?c=750000000&sr=63&qid=61ca26d14ef3deb05c2ca7b96aeac029&ref=shared_link
+2024-06-05 17:35:25    @  ИМЯ: Айнура   ID: 818521200  https://kaspi.kz/shop/p/sumka-kross-bodi-0645-black-ekokozha-chernyi-108321205/?c=750000000&ref=shared_link
+2024-06-05 19:32:33    @  ИМЯ: Айнура   ID: 818521200  https://kaspi.kz/shop/p/sumka-kross-bodi-628-iskusstvennaja-kozha-chernyi-107293434/?c=750000000&sr=12&ref=shared_link

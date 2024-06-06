@@ -64,29 +64,29 @@ func main() {
 				bot.Send(msg)
 			case "Купить подписку!":
 				logs.Log("@" + update.Message.From.UserName + "  " + "ИМЯ: " + update.Message.Chat.FirstName + " " + update.Message.Chat.LastName + "  " + "ID: " + strconv.Itoa(int(update.Message.Chat.ID)) + "  " + update.Message.Text + "\n")
-				// service.Pay(int(update.Message.Chat.ID))
-				msg := tgbotapi.NewMessage(update.Message.Chat.ID, `	Kaspi оплата 4990₸`)
-				keyboard := tgbotapi.NewInlineKeyboardMarkup(
-					tgbotapi.NewInlineKeyboardRow(
-						tgbotapi.NewInlineKeyboardButtonURL("Оплата", "https://pay.kaspi.kz/pay/jxrd4qnx"),
-					),
-				)
-				msg.ReplyMarkup = keyboard
-				bot.Send(msg)
-				msg = tgbotapi.NewMessage(update.Message.Chat.ID, `После оплаты напишите в поддержку!`)
+				service.Pay(int(update.Message.Chat.ID))
+				// msg := tgbotapi.NewMessage(update.Message.Chat.ID, `Подписка на 1 месяц за 4990₸`)
+				// keyboard := tgbotapi.NewInlineKeyboardMarkup(
+				// 	tgbotapi.NewInlineKeyboardRow(
+				// 		tgbotapi.NewInlineKeyboardButtonURL("Оплата", "https://pay.kaspi.kz/pay/jxrd4qnx"),
+				// 	),
+				// )
+				// msg.ReplyMarkup = keyboard
+				// bot.Send(msg)
+				msg := tgbotapi.NewMessage(update.Message.Chat.ID, `Оплачивая вы соглашаетесь с политикой(/politika) конфиденциальности и договором публичной оферты(/oferta)! После оплаты предоставьте чек в Поддержку!`)
 				bot.Send(msg)
 			case "/payments":
 				logs.Log("@" + update.Message.From.UserName + "  " + "ИМЯ: " + update.Message.Chat.FirstName + " " + update.Message.Chat.LastName + "  " + "ID: " + strconv.Itoa(int(update.Message.Chat.ID)) + "  " + update.Message.Text + "\n")
-				// service.Pay(int(update.Message.Chat.ID))
-				msg := tgbotapi.NewMessage(update.Message.Chat.ID, `	Kaspi оплата 4990₸`)
-				keyboard := tgbotapi.NewInlineKeyboardMarkup(
-					tgbotapi.NewInlineKeyboardRow(
-						tgbotapi.NewInlineKeyboardButtonURL("Оплата", "https://pay.kaspi.kz/pay/jxrd4qnx"),
-					),
-				)
-				msg.ReplyMarkup = keyboard
-				bot.Send(msg)
-				msg = tgbotapi.NewMessage(update.Message.Chat.ID, `После оплаты напишите в поддержку!`)
+				service.Pay(int(update.Message.Chat.ID))
+				// msg := tgbotapi.NewMessage(update.Message.Chat.ID, `Подписка на 1 месяц за 4990₸`)
+				// keyboard := tgbotapi.NewInlineKeyboardMarkup(
+				// 	tgbotapi.NewInlineKeyboardRow(
+				// 		tgbotapi.NewInlineKeyboardButtonURL("Оплата", "https://pay.kaspi.kz/pay/jxrd4qnx"),
+				// 	),
+				// )
+				// msg.ReplyMarkup = keyboard
+				// bot.Send(msg)
+				msg := tgbotapi.NewMessage(update.Message.Chat.ID, `Оплачивая вы соглашаетесь с политикой(/politika) конфиденциальности и договором публичной оферты(/oferta)! После оплаты предоставьте чек в Поддержку!`)
 				bot.Send(msg)
 			case "Поддержка!":
 				logs.Log("@" + update.Message.From.UserName + "  " + "ИМЯ: " + update.Message.Chat.FirstName + " " + update.Message.Chat.LastName + "  " + "ID: " + strconv.Itoa(int(update.Message.Chat.ID)) + "  " + update.Message.Text + "\n")
@@ -108,6 +108,12 @@ func main() {
 				)
 				msg.ReplyMarkup = keyboard
 				bot.Send(msg)
+			case "/politika":
+				msg := tgbotapi.NewMessage(update.Message.Chat.ID, "https://docs.google.com/document/d/1JVMm8l9Mz9uFGrL-4AZktH0IkWyoiW0F/edit?usp=sharing&ouid=101316398127673954077&rtpof=true&sd=true")
+				bot.Send(msg)
+			case "/oferta":
+				msg := tgbotapi.NewMessage(update.Message.Chat.ID, "https://docs.google.com/document/d/16ktgyMmUGrJJUDqWP8sgGkHwPba2XvN7/edit?usp=sharing&ouid=101316398127673954077&rtpof=true&sd=true")
+				bot.Send(msg)
 			default:
 				logs.Log("@" + update.Message.From.UserName + "  " + "ИМЯ: " + update.Message.Chat.FirstName + " " + update.Message.Chat.LastName + "  " + "ID: " + strconv.Itoa(int(update.Message.Chat.ID)) + "  " + update.Message.Text + "\n")
 				if service.IsValidURL(update.Message.Text) {
@@ -127,12 +133,13 @@ func main() {
 					} else {
 						msg := tgbotapi.NewMessage(update.Message.Chat.ID, "Идет обработка..")
 						bot.Send(msg)
+						var moneyM int
 						mes := (float64(num) / float64(365)) * 30
 						day := float64(mes) / float64(30)
 						formatted := fmt.Sprintf("%.1f", day)
 						fmt.Println(formatted)
 						price, _ := service.Price(update.Message.Text)
-						moneyM := price * 30
+						moneyM = price * int(mes)
 						msg = tgbotapi.NewMessage(update.Message.Chat.ID, `Общее количество продаж: `+result+` шт.`+"\n"+
 							`В месяц: `+strconv.Itoa(int(mes))+` шт.`+"\n"+`Продажи в день: `+formatted+` шт.`+
 							"\n"+`Выручка за месяц: `+strconv.Itoa(moneyM)+` ₸`)

@@ -29,10 +29,7 @@ func UserData(chat_id int64, s int) {
 		fmt.Println("Ошибка при записи в файл:", err)
 		return
 	}
-	// fmt.Println(ReadFromFile(fileName))
-	if ReadFromFile(fileName) == "2" {
-		fmt.Println("kuku")
-	}
+
 }
 
 func ReadFromFile(fileName string) string {
