@@ -1,15 +1,13 @@
 package service
 
 import (
-	"context"
 	"fmt"
+	"io/ioutil"
 	"net/http"
 	"regexp"
 	"strconv"
-	"time"
 
 	"github.com/PuerkitoBio/goquery"
-	"github.com/chromedp/chromedp"
 )
 
 func Output(n string) (string, error) {
@@ -59,47 +57,34 @@ func Output(n string) (string, error) {
 }
 
 func Price(url string) (int, error) {
-	// Создаем контекст
-	ctx, cancel := chromedp.NewContext(context.Background())
-	defer cancel()
-
-	// Настройка времени ожидания
-	ctx, cancel = context.WithTimeout(ctx, 15*time.Second)
-	defer cancel()
-
-	var res string
-
-	// Выполняем задачи
-	err := chromedp.Run(ctx,
-		chromedp.Navigate(url),
-		chromedp.Sleep(2*time.Second), // Ждем 2 секунды для загрузки страницы
-		chromedp.Text(`.item__price-once`, &res, chromedp.NodeVisible, chromedp.ByQuery),
-	)
+	resp, err := http.Get(url)
 	if err != nil {
-		return 0, err
+		return 0, fmt.Errorf("ошибка при выполнении GET-запроса: %v", err)
 	}
+	defer resp.Body.Close()
 
-	fmt.Println("Текст из элемента item__price-once:", res)
-
-	// Извлекаем только цифры с использованием регулярного выражения
-	re := regexp.MustCompile(`\d+`)
-	digits := re.FindAllString(res, -1)
-
-	// Объединяем извлеченные цифры в одну строку
-	resultString := ""
-	for _, digit := range digits {
-		resultString += digit
-	}
-
-	// Преобразуем строку в число
-	price, err := strconv.Atoi(resultString)
+	body, err := ioutil.ReadAll(resp.Body)
 	if err != nil {
-		return 0, err
+		return 0, fmt.Errorf("ошибка при чтении тела ответа: %v", err)
 	}
 
-	fmt.Println("Извлеченные цифры:", price)
+	// Найти все совпадения с регулярным выражением
+	re := regexp.MustCompile(`"price": "(\d+)"`)
+	matches := re.FindAllStringSubmatch(string(body), -1)
 
-	return price, nil
+	// Извлечь только цифры из совпадений
+	var sum int
+	for _, match := range matches {
+		if len(match) >= 2 {
+			price, err := strconv.Atoi(match[1])
+			if err != nil {
+				return 0, fmt.Errorf("ошибка при конвертации строки в число: %v", err)
+			}
+			sum += price
+		}
+	}
+
+	return sum, nil
 }
 
 // Функция для вычисления суммы (ваша логика)
